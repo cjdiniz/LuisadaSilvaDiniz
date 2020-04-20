@@ -1,0 +1,419 @@
+/* | Genérico | */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/* Colors
+	#f5457c - tom rosa
+	#03476e - tom azulado
+	#da9e49 - Laranja Reencontro
+
+*/
+
+html
+	{
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+body
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		left:0px;
+		margin:0px;
+		padding:0px;
+		z-index: 1;
+	}
+
+
+main
+	{
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+.jumbotron
+	{
+		background-color:#f5457c !important;
+		border-radius: 0rem!important;
+		height: 90px;
+		color: white;
+		margin: 0px;
+		opacity: 0.8;
+		/* padding: 10px; */
+		padding: 0px;
+		position: fixed;
+		width: 100%;
+		z-index: 10;
+	}
+
+p
+	{
+		padding: 50px;
+		font-size: 32px;
+		font-weight: bold;
+		text-align: center;
+		background: #dbdfe5;
+	}
+
+/* | Fim Genérico | */
+
+.parallax
+	{
+		/* The image used */
+		/* background-image: url("/images/pics/CapaSite.bmp"); */
+ 		/* background-image: url("/images/pics/Livros.jpg"); */
+		
+		opacity: 0.75;
+		/* Full height */
+
+		
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+.bgimgAbout1
+	{
+		opacity: 0.85;
+		background-image: url("../images/pics/fotos/Reencontro_v1_capa.jpg");
+		width: 100%;
+		height: 350px;
+		/* height: 100%; */
+	}
+
+.bgimgAbout2
+	{
+		opacity: 0.85;
+		background-image: url("../images/pics/fotos/Docura_Capa.jpg");
+		width: 100%;
+		height: 350px;
+	}
+
+.txtbox
+	{
+		font-style: italic;
+		margin: 50px;
+		line-height: 30px;
+		column-count: 2;
+		column-gap: 50px;
+		column-rule: 2px outset #03476e;
+		text-align:justify;
+	}
+
+/* | Página Works | */
+.obras
+	{
+		background-image: url("../images/pics/FLLpb.jpg");
+		background-size: cover;
+		color: #f5457c;
+		width: 100%;
+		height:800px;
+	}
+	
+.sinopse
+	{
+		
+		background-color: transparent;
+		/* color: #f5457c; */
+		color: #f5457c;
+		/* color: #fed24d; */
+		font: italic bold 14px sans-serif, Arial;
+		padding: 0px;
+		text-align: justify;
+	}
+
+.bordertop
+	{
+		border-top: 2px solid white;
+	}
+
+/* | Menu | */	
+.navbar
+	{
+		
+		/* border: 0; */
+		/* margin: 0; */
+		/* padding: 0; */
+		background: #f5457c !important;
+		float: left;
+		/* height: 392px; */
+		height: 80%;
+		left: 0;
+		margin: 0;
+		opacity: 0.50;
+		position: fixed;
+		padding-top: 0 0;
+		top:220px;
+		width: 130px;
+	}
+
+.navbar-nav
+	{
+		height: 60%;
+		margin:0;
+		padding:0;
+		position: fixed;
+		top: 220px;
+	}
+
+.navbar a
+	{
+		color: white;
+	}
+
+
+/* .navbar a:
+	{
+		background-color: #03476e;
+	}
+ */
+.navbar a:hover
+	{	
+		/* background-color: #f5457c; */
+		background-color: white;
+		/* background-color: #03476e; */
+		/* color: coral; */
+		/* color: #f5457c; */
+		color: #03476e;
+	}
+
+.nav-item
+	{
+		height: 30px;		
+	}
+
+/* | Logotipo | */
+.logo
+	{
+
+		left: 0;
+		float: left;
+		border: 0px;
+		margin:0px;
+		padding: 0px;
+		width:130px;
+		height:130px;
+		position: fixed;
+		top:90px;
+		vertical-align: middle;
+		/* align:left;  */
+
+	}
+
+/* | Barra de título | */
+.titulo
+	{
+		left: 36%;
+		text-align: center;
+		margin: 0px 0;
+		margin-bottom: 20px;
+		color: #03476e;
+		padding: 0px 100px 5px;
+		position: absolute;
+		top:100px;
+		z-index: 7;
+	}
+
+
+table
+	{
+		/* background-color: #fed24d; */
+		background-color: #f5457c;
+		border: 0px;
+		border-style: none;
+		padding: 0px;
+		border-radius: 0deg;
+		border-collapse: collapse;
+		border-spacing: 0px;
+		font-size:15px;
+	}
+table a
+	{
+		color: white;
+		text-decoration: none;
+	}
+
+/* | Contentor principal | */
+.cont
+	{
+		border: 0px;
+		border-style: none;
+		/* background-color: 	#ed9a4e; */
+		/* float: left; */
+		/* height:700px; */
+		height:600px;
+		left: 130px;
+		margin: 0;
+		/* margin-left:10px;
+		margin-right:10px; */
+		padding:0px;
+		position: absolute;
+		top: 150px;
+		width:90%;
+		z-index:3;
+	}
+
+.cont iframe
+	{
+		height: 100%;
+		width: 100%;
+	}
+/* ! Fim Contentor principal | */
+
+/* | Páginas Contactos| */
+.contactos
+	{
+		margin: 10px;
+	}
+
+
+/* | Páginas Eventos| */
+.events
+	{
+		background-image: url("/images/pics/fotos/o-amor-esta-na-moda2.jpg");
+		background-size: cover;
+		font-family: 'Caveat', cursive;
+		color: white;
+		opacity: 0.85;
+		padding: 30px;
+		vertical-align: middle;
+		height: 130%;
+		z-index: 1;
+	}
+
+.events_size
+	{
+
+		height: 120%;
+
+	}
+
+.buyimgth
+	{
+		align-items: center;
+		height: 70%;
+		width: 32%;
+	}
+.mapa
+	{
+		border:0;
+		position: relative;
+	}
+
+.mapa iframe
+	{
+		width:400px;
+		height:250px;
+	}
+
+/* | Footer | */
+.foot
+	{	
+		/* background-color: #f5457c; */
+		background-color: 	#03476e;
+		/* background-color: #fed24d; */
+		border: 0px;
+		border-style: none;
+		bottom: 0px;
+		color:white;
+		font: 10px arial;
+		height:90px;
+		left:130px;
+		margin:0px;
+		opacity:0.7;
+		padding:0px;
+		position: fixed;
+		vertical-align: middle; 
+		width:100%;
+		z-index:10;
+	}
+
+
+/* | Página Animações | */ 
+.animax1
+	{
+		left:200px;
+		top:100px;
+		position: relative;
+		width: 100px;
+		height: 100px;
+		background-color:#f5457c;
+		transition: 2s;
+	}
+		
+.animax1:hover
+	{
+		width: 200px;
+		height: 200px;
+		background-color:#03476e;
+		transform:rotate(180deg);
+	}
+
+.animax2
+	{
+		
+		left:400px;
+		top:0px;
+		position: relative;
+		width: 200px;
+		height: 100px;
+		background-color:#03476e;
+		/* background-color:#f5457c; */
+		transition: 2s;
+	}
+		
+.animax2:hover
+	{
+		width: 200px;
+		height: 200px;
+		background-color:#f5457c;
+		/* background-color:#03476e; */
+		transform: skew(20deg, 20deg);
+	}
+/* | Fim Página Animações | */ 
+
+/* | Barra icons Redes Sociais | */
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar 
+	{
+		position: fixed;
+		top: 80%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+  
+  /* Style the icon bar links */
+  .icon-bar a
+	{
+		display: inline;
+		text-align: center;
+		padding: 16px;
+		transition: all 0.3s ease;
+		color: white;
+		font-size: 20px;
+	}
+	
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover 
+	{
+		background-color: #000;
+	}
+	
+  .facebook 
+	{
+		background: #3B5998;
+		color: white;
+	}
+	
+  .instagram 
+	{
+		background: #bb0000;
+		color: white;
+	} 
